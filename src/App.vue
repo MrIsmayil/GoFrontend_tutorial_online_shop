@@ -1,7 +1,7 @@
 <template>
 <div id="App">
 <h1>Hello Vue!</h1>
-<p>Test git</p>
+
 </div>
 </template>
 

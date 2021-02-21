@@ -1,28 +1,25 @@
 <template>
-    <div class="Main_wrapper">
+    <div class="Catalog">
          <h1> {{ title }} </h1>
-         
-         <catalog/>
-         <cart/>
+         <catalog-item/>
 
     </div>
 </template>
 
 <script>
-import Catalog from "./catalog";
-import Cart from "./cart"
+import CatalogItem from "./catalog-Item"
+
+
 
 export default {
-    name: "Main-wrapper",
+    name: "Catalog",
     components: {
-        Catalog,
-        Cart
-        
+        CatalogItem,
     },
     props: {},
     data() {
         return {
-            title: "Main wrapper!",
+            title: "Catalog!",
 
         }
     },
@@ -31,7 +28,7 @@ export default {
     methods: {},
     watch: {},
     mounted() {
-        console.log("Hello I am akive!");
+        console.log("Hello Catalog is aktive!");
     },
 }
 </script>

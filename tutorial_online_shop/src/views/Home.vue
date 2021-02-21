@@ -1,5 +1,6 @@
 <template>
     <div id="Home">
+        <h1> {{ title }} </h1>
         <main-wrapper/>
        
 
@@ -8,6 +9,8 @@
 
 <script>
 import mainWrapper from "@/components/main-wrapper"
+
+
 export default {
     name: "Home",
     components: {
@@ -16,7 +19,7 @@ export default {
     props: {},
     data() {
         return {
-            title: "Home!",
+            title: "Hello Vue!",
 
         }
     },

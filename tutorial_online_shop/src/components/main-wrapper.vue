@@ -1,22 +1,18 @@
 <template>
-    <div class="Main_wrapper">
-         <h1> {{ title }} </h1>
-         
+    <div class="main-wrapper">      
          <catalog/>
-         <cart/>
-
     </div>
 </template>
 
 <script>
 import Catalog from "./catalog";
-import Cart from "./cart"
+// import Cart from "./cart"
 
 export default {
-    name: "Main-wrapper",
+    name: "main-wrapper",
     components: {
         Catalog,
-        Cart
+        
         
     },
     props: {},
@@ -31,11 +27,17 @@ export default {
     methods: {},
     watch: {},
     mounted() {
-        console.log("Hello I am akive!");
+        console.log("Hello I am aktive!");
     },
 }
 </script>
 
-<style scoped>
+<style>
+.main-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
 
 </style>

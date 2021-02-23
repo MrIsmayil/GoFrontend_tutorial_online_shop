@@ -1,6 +1,5 @@
 <template>
-    <div id="Home">
-        <h1> {{ title }} </h1>
+    <div id="Home">        
         <main-wrapper/>
        
 
